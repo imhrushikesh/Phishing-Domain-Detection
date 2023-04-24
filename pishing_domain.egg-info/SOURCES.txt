@@ -8,6 +8,7 @@ domain/utils.py
 domain/components/__init__.py
 domain/components/data_ingestion.py
 domain/components/data_validation.py
+domain/components/model-evaluation.py
 domain/constants/__init__.py
 domain/entity/__init__.py
 domain/entity/artifact_entity.py

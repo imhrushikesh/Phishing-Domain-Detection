@@ -107,7 +107,6 @@ class DataValidation:
             self.validation_error[report_key_name]=drift_report
         except Exception as e:
             raise PishingException(e, sys)
-
     def initiate_data_validation(self)->artifact_entity.DataValidationArtifact:
         try:
             logging.info(f"Reading base dataframe")
@@ -165,3 +164,4 @@ class DataValidation:
             return data_validation_artifact
         except Exception as e:
             raise PishingException(e, sys)
+            
