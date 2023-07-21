@@ -97,3 +97,4 @@ class ModelEvaluation:
             return model_eval_artifact
         except Exception as e:
             raise PishingException(e,sys)
+            

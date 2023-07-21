@@ -32,8 +32,10 @@ def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataF
 def read_yaml_file(file_path:str)->dict:
     """Reads the yaml file for which path is provided
     and returns the dictionary representation of yaml file
+
     Args:
         file_path (str): path for the yaml file
+
     Raises:
         e: Exception object
     Returns:

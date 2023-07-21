@@ -65,5 +65,4 @@ class DataIngestion:
 
         except Exception as e:
             raise PishingException(error_message=e, error_detail=sys)
-
-
+            
